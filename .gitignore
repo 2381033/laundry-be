@@ -1,0 +1,35 @@
+# Abaikan folder dependensi Node.js
+/node_modules
+
+# Abaikan file environment variables (JANGAN PERNAH commit file .env asli!)
+.env
+.env.*
+!.env.example # Kecuali file contoh .env
+
+# Abaikan log
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Abaikan folder output build (sesuaikan jika nama foldernya beda)
+/dist
+/build
+/.next # Jika pakai Next.js
+/.output # Jika pakai Nuxt 3
+
+# File sistem operasi
+.DS_Store
+Thumbs.db
+
+# Direktori editor/IDE (opsional)
+.vscode/
+.idea/
+
+# Lain-lain
+coverage/
